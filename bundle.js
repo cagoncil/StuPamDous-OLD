@@ -1,5 +1,4 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-
 var asdfjkl = require('asdfjkl').default;
 
 var input = document.getElementsByTagName("input")[0];
@@ -16,7 +15,7 @@ meow.volume = 0.3;
 var catArray = [
 	// ====== STU ======
 	"Pikastu",
-	"Stu Fast, Stu Furious",
+	"Stu Fast, Stu Furryous",
 	"Stupac Shakur",
 	"Stuper Bowl",
 	"Toaster Stu-del",
@@ -37,7 +36,7 @@ var catArray = [
 	"Stuhammad Ali",
 	"Stu mad, bro?",
 	"Stu be, or not stu be",
-	"Tail of Stu Kitties",
+	"A Tail of Stu Kitties",
 	"Stuplantation®",
 	"🦉Stuolingo",
 	"Freddy Stu-eger",
@@ -47,11 +46,45 @@ var catArray = [
 	"Bowling For Stu-pe",
 	"Stu-dwig Van Beethoven",
 	"Stu-per Nintendo",
-	"Ferris Stu-eller's Day Off",
+	"Ferris Stueller's Day Off",
 	"Lord of the Rings: The Stu Towers",
 	"Stu Kill a Mockingbird",
-	"Curb Your EnStusiasm",
+	"Curb Your Enstusiasm",
 	"Black Mirror's 'San Stunipero'",
+	"Stu Tang Clan",
+	"StuTI",
+	"Stuby Doo",
+	"Stuber",
+	"Stukkake",
+	"Kama Stutra",
+	"Peek-A-Stu",
+	"Lake Havastu",
+	"Stubella Virus",
+	"Hairy Stoudini",
+	"Matisyastu",
+	"Stu Apron",
+	"Kung Stu Panda",
+	"Stu Blood",
+	"Stulu",
+	"San Diego Stu®",
+	"Stu Zealand",
+	"Stunited Nations",
+	"Le Cordon Stu",
+	"Barbestu",
+	"Timbukstu",
+	"Tiramistu",
+	"Stugh Hefner",
+	"Get a Stu",
+	"Stueless",
+	"Orthodox Stu",
+	"Disney's Stulan",
+	"Stunami",
+	"Bird's-eye Stu",
+	"Jiu Jit Stu",
+	"Honeystu Melon",
+	"Back to the Stuture",
+	"Machu Pisstu",
+
 
 	// ====== PAM ======
 	"Childish Pambino",
@@ -95,6 +128,9 @@ var catArray = [
 	"Pamily Guy",
 	"Buffy the Pam-pire Slayer",
 	"International House of Pamcakes",
+	"Sweet Home Alapama",
+	"Mipami Beach",
+	"Pam-ama Canal",
 ];
 
 input.addEventListener("click", function(event){
@@ -260,7 +296,7 @@ function tooManyChars() {
 }
 
 function gibberishDetected() {
-	message.innerText = "Please put in more effort to be punny ☹";
+	message.innerText = "That wasn't punny. You can stu better than that ☹";
 	message.classList.add('show');
 	message.classList.remove('hide');
 		setTimeout(function(){
@@ -285,7 +321,6 @@ function removeText() {
 	message.classList.add('hide');
 	h2.classList.remove('show');
 }
-
 },{"asdfjkl":2,"uniq":6}],2:[function(require,module,exports){
 "use strict";
 
