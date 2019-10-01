@@ -201,6 +201,11 @@ button:focus:not(:active)::after {
 		background-color: plum;
 	}
 
+	html, body {
+		height: 100%; /* using 100% instead of 100vh for mobile */
+		overflow: hidden;
+	}
+
 	body {
 		position: relative;
 	/*	overflow-y: hidden;*/
@@ -219,7 +224,7 @@ button:focus:not(:active)::after {
 		align-self: flex-end;
 		justify-content: flex-end;*/
 		position: absolute;
-		top: calc(100vh - 200px);
+		top: calc(100% - 159px);
 		bottom: 0;
 		left: 0;
 		width: 100%;
@@ -239,10 +244,11 @@ button:focus:not(:active)::after {
 
 	#message {
 		height: 45px;
+		font-size: calc(1.25em + 6 * ((100vw - 320px) / 680));
 		align-self: center;
 		text-align: center;
 		position: absolute;
-		top: calc(100vh - 260px);
+		top: calc(100% - 215px);
 		left: 0;
 		right: 0;
 		bottom: 0;
