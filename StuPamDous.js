@@ -36,7 +36,7 @@ var catArray = [
 	"Stu mad, bro?",
 	"Stu be, or not stu be",
 	"A Tail of Stu Kitties",
-	"Stuplantation®",
+	"Stuplantation",
 	"🦉Stuolingo",
 	"Freddy Stu-eger",
 	"Stu Years Eve",
@@ -83,12 +83,21 @@ var catArray = [
 	"Honeystu Melon",
 	"Back to the Stuture",
 	"Machu Pisstu",
+	"Winnie the Stu 🍯",
+	"Stutistics",
+	"Stucha Libre",
+	"Stu Barrymore",
 
+	// === STU & PAM ====
+	"Stu it for the Pam",
+	"Pamned If You Stu, Pamned If You Don't",
+	"Pamned If I Stu, Pamned If I Don't",
+	"I Gotstu, Pam",
+	"In-stu-pam Influencer",
 
 	// ====== PAM ======
 	"Childish Pambino",
 	"Wham Bam, Thank You Pam",
-	"Pamela Caterson",
 	"Pam-purrs Diapers",
 	"Pammibal Buress",
 	"Pamimal Collective",
@@ -121,6 +130,7 @@ var catArray = [
 	"SpongeBob SquarePams",
 	"Pamda 🐼 Express",
 	"Pam 'n' Egg Sandwich",
+	"Pam & Cheese Sandwich",
 	"The Silence of the Pams",
 	"Pam's Labyrinth",
 	"Modern Pamily",
@@ -130,6 +140,23 @@ var catArray = [
 	"Sweet Home Alapama",
 	"Mipami Beach",
 	"Pam-ama Canal",
+	"Pam-plemousse Flavored La Croix",
+	"Pamgaea",
+	"Pamdemic",
+	"Palak Pameer",
+	"Pamini Grill",
+	"Field of Pamsies",
+	"Pamn, Pamiel!",
+	"Eternal Pamnation",
+	"Happy as a Pam",
+	"Pams Casino",
+	"Instapam",
+	"Pam I Am",
+	"Honey Maid Pam Crackers",
+	"Pamma Ray",
+	"Rob Van Pam",
+	"Candied Pams",
+	"Grilled Pam Chops"
 ];
 
 input.addEventListener("click", function(event){

@@ -6,7 +6,7 @@ body {
 	-moz-transition: background-image 0.5s ease;
 	-o-transition: background-image 0.5s ease;
 	transition: background-image 0.5s ease;
-		-o-user-select: none;
+	-o-user-select: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -187,7 +187,7 @@ button:focus:not(:active)::after {
 	}
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) and (orientation: portrait) {
 
 	body.pam {
 		background: url(media/pam-mobile.gif) no-repeat 40% 50% fixed;
@@ -208,21 +208,10 @@ button:focus:not(:active)::after {
 
 	body {
 		position: relative;
-	/*	overflow-y: hidden;*/
 	}
 
-	/*header {
-		height: calc(60vh - 165px);
-		background: black;
-	}*/
-
 	div {
-		/*padding-top: 40vh;*/
-		/*margin-bottom: -20vh;*/
 		display: block;
-/*		flex-flow: column nowrap;
-		align-self: flex-end;
-		justify-content: flex-end;*/
 		position: absolute;
 		top: calc(100% - 159px);
 		bottom: 0;
