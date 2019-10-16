@@ -7,7 +7,7 @@
 StuPamDous is a tongue-in-cheek website that celebrates two very special cats, Stu and Pam. These beloved cats reside with a good friend of mine, who has a contagious habit of cataloguing and reciting an ever-growing list of *stupendous* puns related to the cats' names. One day I shared my progress in teaching myself web development with her, and she offhandedly joked about using her cats as inspiration for my next project. Taking her suggestion in earnest, I thought to myself how much fun it would be to manifest her mental list of cat puns into reality. So Rabia, [this website](https://stupamdous.com/) is for you, and Happy Birthday!
 
 ### 😼 How it works 😼
-Hopefully self-explanatory, but you can visit `stupamdous.com` to peruse through a list of pre-existing cat name puns. Or you can submit your own Stu- and/or Pam-related pun in the input field. 
+Hopefully self-explanatory, but you can visit [`stupamdous.com`](https://stupamdous.com/) to peruse through a list of pre-existing cat name puns. Or you can submit your own Stu- and/or Pam-related pun in the input field. If your submission successfully goes through, you will be rewarded with an adorable surprise gif.
 
 **Input field rules:** submissions must contain a string between 0 and 50 characters and include the name Stu or Pam. 
 
