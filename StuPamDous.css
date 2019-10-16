@@ -187,7 +187,7 @@ button:focus:not(:active)::after {
 	}
 }
 
-@media screen and (max-width: 600px) and (orientation: portrait) {
+@media screen and (max-width: 600px) {
 
 	body.pam {
 		background: url(media/pam-mobile.gif) no-repeat 40% 50% fixed;
