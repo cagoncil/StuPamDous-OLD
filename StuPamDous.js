@@ -97,6 +97,8 @@ var catArray = [
 	"I Gotstu, Pam",
 	"Instupam Influencer",
 	"Pamiel Day-Stuwis",
+	"Fluffy Stueberry Pamcakes",
+	"Marvel Stu-dios' Black Pamther",
 
 	// ====== PAM ======
 	"Childish Pambino",
@@ -160,7 +162,8 @@ var catArray = [
 	"Rob Van Pam",
 	"Candied Pams",
 	"Grilled Pam Chops",
-	"Pamiel Radcliffe"
+	"Pamiel Radcliffe",
+	"Pamburger Helper"
 ];
 
 input.addEventListener("click", function(event){
