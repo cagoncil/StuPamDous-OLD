@@ -196,7 +196,7 @@ button:focus:not(:active)::after {
 	}
 
 	body.stu {
-		background: url(media/stu-mobile.gif) no-repeat 60% 55% fixed;
+		background: url(media/stu-mobile.gif) no-repeat 60% 65% fixed;
 		background-size: 200%;
 		background-color: plum;
 	}

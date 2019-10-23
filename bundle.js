@@ -99,7 +99,7 @@ var catArray = [
 	"Instupam Influencer",
 	"Pamiel Day-Stuwis",
 	"Fluffy Stueberry Pamcakes",
-	"Marvel Stu-dios' Black Pamther",
+	"Marvel Studios' Black Pamther",
 
 	// ====== PAM ======
 	"Childish Pambino",
@@ -170,6 +170,7 @@ var catArray = [
 input.addEventListener("click", function(event){
 	removeText();
 	setTimeout(function(){
+		h1.textContent = "Stu•Pam•Dous";
    		h2.textContent = "Try submitting your very own Stu- or Pam-inspired expression!";
    		h2.classList.remove('hide');
    		h2.classList.add('show');
