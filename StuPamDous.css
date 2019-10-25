@@ -1,3 +1,6 @@
+
+/* =================== Main Styles =================== */
+
 body {
 	background: plum;
 	font-family: 'Manjari', sans-serif;
@@ -42,7 +45,7 @@ h2 {
 	margin-top: -1vh;
 }
 
-div {
+.form {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -93,7 +96,7 @@ div {
 
 input {
 	height: 45px;
-	width: 35vw;
+	width: 42.5vw;
 	font-size: 22px;
 	font-family: 'Manjari', sans-serif;
 	color: thistle;
@@ -106,6 +109,20 @@ input {
 
 input:focus {
 	outline: none;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: thistle;
+}
+
+::selection {
+  color: white;
+  background: thistle;
+}
+
+::spelling-error {
+  color: plum;
 }
 
 /* ===================== Buttons ===================== */
@@ -169,6 +186,46 @@ button:focus:not(:active)::after {
 	}
 }
 
+/* ================= Loading Screen ================== */
+.lds-ring {
+  display: block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin: auto;
+}
+.lds-ring div {
+	z-index: 9999;
+	top: calc(50vh - 51px);
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	width: 51px;
+	height: 51px;
+	margin: 6px;
+	border: 6px solid #fff;
+	border-radius: 50%;
+	animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+	border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* ================== Media Queries ================== */
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -178,7 +235,7 @@ button:focus:not(:active)::after {
 }
 
 @media screen and (max-width: 800px){
-	div {
+	.form {
 		bottom: 30vh;
 	}
 
@@ -210,7 +267,7 @@ button:focus:not(:active)::after {
 		position: relative;
 	}
 
-	div {
+	.form {
 		display: block;
 		position: absolute;
 		top: calc(100% - 159px);
