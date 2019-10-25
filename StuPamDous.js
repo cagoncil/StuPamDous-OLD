@@ -113,7 +113,7 @@ var catArray = [
 	"Pamburger & Fries",
 	"Pameron Diaz",
 	"Pamelot",
-	"Hairy Pawter And The Prizoner Of Azka-Pam",
+	"Hairy Pawter & The Prizoner Of AzkaPam",
 	"Mary Had A Little Pam",
 	"Pamsterdam",
 	"AbraPam Lincoln",
