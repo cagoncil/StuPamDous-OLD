@@ -170,12 +170,10 @@ var catArray = [
 
 document.onreadystatechange = function () {
   var state = document.readyState;
-  if (state == "interactive") {
-       document.getElementById("content").style.visibility="hidden";
-  } else if (state == "complete") {
+	if (state == "complete") {
       setTimeout(function(){
          document.getElementsByClassName("lds-ring")[0].style.display="none";
-         document.getElementById("content").style.visibility="visible";
+         document.getElementById("content").classList.remove("hide");
       },1000);
   }
 }
