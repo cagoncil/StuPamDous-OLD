@@ -19,8 +19,8 @@ Hopefully self-explanatory, but you can visit [`stupamdous.com`](https://stupamd
 ### 🙀 Technologies used 🙀
 
 - HTML/CSS
-- Vanilla JS
-- Node JS
+- JavaScript ES6
+- NPM
   - Browserify
   - [asdfjkl](https://www.npmjs.com/package/asdfjkl)
   - [uniq](https://www.npmjs.com/package/uniq)
