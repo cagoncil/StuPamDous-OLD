@@ -257,13 +257,13 @@ randomBtn.addEventListener("click", () => {
 	input.value = ''
 })
 
-function catPunSubmitted() {
+const catPunSubmitted = () => {
 	meow.play()
 
 	message.textContent = "Submitted"
 	message.classList.add('show')
 	message.classList.remove('hide')
-	setTimeout(function(){
+	setTimeout(() => {
 		message.classList.add('hide')
 		message.classList.remove('show')
 	}, 3000)
@@ -276,18 +276,18 @@ function catPunSubmitted() {
 		.join(' ') // creates a new string by concatenating all the substrings, separated by a space
 	catArray.push(approvedSubmission)
 	h1.textContent = approvedSubmission
-	setTimeout(function(){
+	setTimeout(() => {
 		h2.textContent = "Nice one! Would you like to add another pun-derful phrase?"
 	}, 400)
 	input.value = ''
 	randomBtn.textContent = "Nah, I'm good"
 }
 
-function notPamOrStu() {
+const notPamOrStu = () => {
 	message.textContent = "Error: Your submission must include the name Pam or Stu."
 	message.classList.add('show')
 	message.classList.remove('hide')
-	setTimeout(function(){
+	setTimeout(() => {
 		message.classList.add('hide')
 		message.classList.remove('show')
 	}, 5000)
@@ -295,33 +295,33 @@ function notPamOrStu() {
 	return false
 }
 
-function emptyInput() {
+const emptyInput = () => {
 	message.textContent = "You have to write something first!"
 	message.classList.add('show')
 	message.classList.remove('hide')
-		setTimeout(function(){
+		setTimeout(() => {
 			message.classList.add('hide')
 			message.classList.remove('show')
 		}, 2000)
 	return false
 }
 
-function tooManyChars() {
+const tooManyChars = () => {
 	message.textContent = "Error: Your submission must be under 50 characters."
 	message.classList.add('show')
 	message.classList.remove('hide')
-		setTimeout(function(){
+		setTimeout(() => {
 			message.classList.add('hide')
 			message.classList.remove('show')
 		}, 4000)
 	return false
 }
 
-function gibberishDetected() {
+const gibberishDetected = () => {
 	message.innerText = "That wasn't punny. You can stu better than that ☹"
 	message.classList.add('show')
 	message.classList.remove('hide')
-		setTimeout(function(){
+		setTimeout(() => {
 			message.classList.add('hide')
 			message.classList.remove('show')
 		}, 4000)
@@ -329,7 +329,7 @@ function gibberishDetected() {
 	return false
 }
 
-function removeBackground() {
+const removeBackground = () => {
 	if (body.classList.contains('pam')) {
 		body.classList.remove('pam')
 	} else if (body.classList.contains('stu')) {
@@ -337,7 +337,7 @@ function removeBackground() {
 	}
 }
 
-function removeText() {
+const removeText = () => {
 	h2.classList.add('hide')
 	message.classList.remove('show')
 	message.classList.add('hide')
