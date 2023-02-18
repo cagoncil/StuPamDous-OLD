@@ -4,8 +4,8 @@
   "description": "This is a quirky cat pun-filled project dedicated to my dear friend and her two cats, Stu and Pam.",
   "main": "StuPamDous.js",
   "scripts": {
-    "build": "browserify StuPamDous.js -o bundle.js",
-    "watch": "watchify StuPamDous.js -o bundle.js"
+    "build": "browserify app.js -o bundle.js",
+    "watch": "watchify app.js -o bundle.js"
   },
   "author": "Crystal Skye Agoncillo",
   "license": "ISC",
